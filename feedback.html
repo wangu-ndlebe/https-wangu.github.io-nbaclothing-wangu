@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Feedback - NBA Clothing & Brands</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+<body>
+    <div class="container">
+    <header>
+    <img src="images/nba logo.png" alt="NBA Logo" width="100" />
+        <h1>NBA Clothing & Brands</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="brands.html">Brands</a></li>
+            <li><a href="feedback.html" class="active">Feedback</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>We Value Your Feedback</h2>
+        <p>Your opinions and suggestions help us improve our store and service. Whether you have a comment, a suggestion, or a concern, we want to hear from you.</p>
+        
+        <p>Please fill out the form below and we’ll get back to you as soon as possible. Thank you for supporting NBA Clothing & Brands!</p>
+
+        <form action="#" method="post" id="feedbackForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit Feedback</button>
+        </form>
+         <div id="confirmationMessage" style="display:none; margin-top:20px; color: green; font-weight: bold;">
+            Thank you for your feedback! We appreciate your time.
+        </div>
+    </main>
+
+    <footer>
+         
+         <div class="contact-info">
+        <p><strong>Visit Us:</strong> 123 NBA Street, Gaborone, BOTSWANA</p>
+        <p><strong>Follow Us:</strong></p>
+        <a href="https://www.facebook.com/NBA" target="_blank">
+            <img src="images/facebook.png" alt="Facebook" width="24" />
+        </a>
+        <a href="https://www.instagram.com/NBA" target="_blank">
+            <img src="images/instagram.png" alt="Instagram" width="24" />
+        </a>
+    </div>
+        <p>&copy; 2025 NBA Clothing & Brands. All rights reserved.</p>
+    </footer>
+     <script src="java.js"> document.getElementById("feedbackForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent actual form submission
+            document.getElementById("confirmationMessage").style.display = "block";
+            this.reset(); // Clear form inputs
+        });</script>
+</body>
+</html>
