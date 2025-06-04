@@ -12,7 +12,7 @@
 
   header, footer {
     background: #006bb6;
-    color: #fff;
+    color: #000;
     text-align: center;
     padding: 1rem 0;
   }
@@ -51,7 +51,7 @@ nav ul li a {
 
 
 nav ul li a:link {
-    color: #333; 
+    color: #000; 
 }
 
 
@@ -61,14 +61,14 @@ nav ul li a:visited {
 
 
 nav ul li a:hover {
-    color: #fff;
+    color: #000;
     background-color: #0055a5;
     border-radius: 5px;
 }
 
 
 nav ul li a.active {
-    color: #fff;
+    color: #000;
     background-color: #003366;
     border-radius: 5px;
 }
