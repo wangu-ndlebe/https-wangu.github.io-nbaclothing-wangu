@@ -30,19 +30,19 @@
     margin: 0 1rem;
   }
   nav ul li a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-weight: bold;
     padding: 0.75rem 1rem;
     display: block;
   }
   nav ul li a:hover {
-    background: #003366;
+    background: #000;
     border-radius: 4px;
   }
 
 nav ul li a {
-    color: #333;
+    color: #000;
     text-decoration: none;
     padding: 8px 12px;
     display: inline-block;
@@ -56,7 +56,7 @@ nav ul li a:link {
 
 
 nav ul li a:visited {
-    color: #666; 
+    color: #000; 
 }
 
 
